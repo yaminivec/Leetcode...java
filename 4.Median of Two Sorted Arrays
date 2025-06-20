@@ -44,7 +44,7 @@ class Solution {
        }
         double ans =0;
         if(length % 2 == 0){
-            ans=(merged_array[length/2]+ merged_array[(length/2-1) ])/2.0;
+            ans=(merged_array[length/2]+ merged_array[(length/2)-1])/2.0;
         }
         else{
             ans = merged_array[length/2];
